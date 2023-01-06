@@ -42,7 +42,7 @@
     "clean": "npx rimraf dist",
     "clean:modules": "npx rimraf ./node_modules package-lock.json",
     "clean:slate": "npm run clean:modules && npm install",
-    "commit": "./node_modules/.bin/git-cz",
+    "commit": "cz",
     "generate:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "generate:changelog-recent": "conventional-changelog -p angular | tail -n +3",
     "prepare": "husky install",
