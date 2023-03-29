@@ -33,7 +33,7 @@
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^2.0.31",
-    "cz-customizable": "^6.2.0",
+    "cz-customizable": "^7.0.0",
     "eslint": "^8.31.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsdoc": "^39.6.4",
