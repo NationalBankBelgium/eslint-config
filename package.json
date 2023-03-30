@@ -1,6 +1,6 @@
 {
   "name": "@nationalbankbelgium/eslint-config",
-  "version": "0.0.1",
+  "version": "0.1.0-beta.0",
   "description": "ESLint configuration used at the National Bank of Belgium",
   "author": {
     "email": "alexis.georges@nbb.be",
