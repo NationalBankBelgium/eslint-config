@@ -25,6 +25,20 @@
     "eslint",
     "eslint-config"
   ],
+  "dependencies": {
+    "@angular-eslint/builder": "12.7.0",
+    "@angular-eslint/eslint-plugin": "12.7.0",
+    "@angular-eslint/eslint-plugin-template": "12.7.0",
+    "@angular-eslint/schematics": "12.7.0",
+    "@angular-eslint/template-parser": "12.7.0",
+    "@typescript-eslint/eslint-plugin": "4.28.2",
+    "@typescript-eslint/parser": "4.28.2",
+    "eslint": "^7.26.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-unicorn": "^36.0.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
@@ -35,17 +49,23 @@
     "cz-customizable": "^7.0.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.2.0",
+    "pinst": "~3.0.0",
     "prettier": "~2.3.2",
     "release-it": "^15.10.1"
   },
   "scripts": {
+    "build": "bash ./build.sh",
     "clean": "npx rimraf dist",
     "clean:modules": "npx rimraf ./node_modules package-lock.json",
     "clean:slate": "npm run clean:modules && npm install",
     "commit": "cz",
     "generate:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "generate:changelog-recent": "conventional-changelog -p angular | tail -n +3",
-    "prepare": "husky install",
+    "prepack": "pinst --disable",
+    "prepublishOnly": "pinst --disable",
+    "postinstall": "husky install",
+    "postpack": "pinst --enable",
+    "postpublish": "pinst --enable",
     "release": "release-it"
   },
   "lint-staged": {
