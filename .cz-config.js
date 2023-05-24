@@ -26,8 +26,7 @@ module.exports = {
 		},
 		{
 			value: "ci",
-			name:
-				"ci:       Changes to our CI configuration files and scripts (example scopes: GitHub Actions, Travis, BrowserStack, SauceLabs)"
+			name: "ci:       Changes to our CI configuration files and scripts (example scopes: GitHub Actions, Travis, BrowserStack, SauceLabs)"
 		},
 		{
 			value: "chore",
