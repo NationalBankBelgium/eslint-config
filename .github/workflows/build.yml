@@ -16,6 +16,8 @@ jobs:
     name: Test, Build & Release
     runs-on: "ubuntu-latest"
     env:
+      LOGS_DIR: /tmp/eslint-config/logs
+      LOGS_FILE: /tmp/eslint-config/logs/build-perf.log
       NPM_VERSION: "8.x"
       TZ: "Europe/Brussels"
     steps:
@@ -27,6 +29,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 14
+
+      - name: Create file & folder for GitHub Actions logs
+        run: |
+          # cfr scripts/_ghactions-group.sh
+          mkdir -p $LOGS_DIR
+          touch $LOGS_FILE
 
       - name: List main variables
         run: |
@@ -46,5 +54,21 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Default script
-        run: echo "Workflow is working"
+      - name: Build
+        run: npm run build
+
+      # See: https://github.com/marketplace/actions/upload-a-build-artifact
+      - uses: actions/upload-artifact@v3
+        with:
+          name: dist-${{ github.run_id }}
+          path: dist
+
+      - name: Release
+        run: npm run release:publish
+        if: github.ref_type == 'tag'
+        env:
+          GH_ACTIONS_TAG: ${{ github.ref_name }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Save logs
+        run: bash ./scripts/ci/print-logs.sh
