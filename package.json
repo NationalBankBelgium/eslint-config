@@ -59,6 +59,7 @@
     "clean:modules": "npx rimraf ./node_modules package-lock.json",
     "clean:slate": "npm run clean:modules && npm install",
     "commit": "cz",
+    "format": "prettier \"**/*.{css,html,js,json,md,pcss,scss,ts,yml}\" --write --html-whitespace-sensitivity strict",
     "generate:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "generate:changelog-recent": "conventional-changelog -p angular | tail -n +3",
     "prepack": "pinst --disable",

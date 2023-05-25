@@ -35,11 +35,11 @@ To know how to release eslint-config, refer to [this page](/RELEASE.md).
 
 ### Alexis Georges
 
--   [@GitHub](https://github.com/SuperITMan)
+- [@GitHub](https://github.com/SuperITMan)
 
 ### Michaël Henkens
--   [@GitHub](https://github.com/mhenkens)
 
+- [@GitHub](https://github.com/mhenkens)
 
 ## License
 

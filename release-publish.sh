@@ -18,7 +18,6 @@ DRY_RUN=false
 PACKAGE=eslint-config
 
 EXPECTED_REPO_SLUG="NationalBankBelgium/eslint-config"
-EXPECTED_NODE_VERSION="10"
 
 GH_ACTIONS_TAG=${GH_ACTIONS_TAG:-""}
 NPM_TOKEN=${NPM_TOKEN:-""}
