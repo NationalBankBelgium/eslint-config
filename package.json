@@ -67,7 +67,8 @@
     "postinstall": "husky install",
     "postpack": "pinst --enable",
     "postpublish": "pinst --enable",
-    "release": "release-it"
+    "release": "release-it",
+    "release:publish": "bash ./release-publish.sh --trace"
   },
   "lint-staged": {
     "*.{css,html,js,json,md,pcss,scss,ts,yml}": [
