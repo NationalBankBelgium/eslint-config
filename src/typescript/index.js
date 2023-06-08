@@ -91,6 +91,7 @@ module.exports = {
 				ignoreParameters: true
 			}
 		],
+		"@typescript-eslint/no-invalid-this": "error",
 		"@typescript-eslint/no-misused-new": "error",
 		"@typescript-eslint/no-namespace": "error",
 		"@typescript-eslint/no-non-null-assertion": "error",
@@ -214,7 +215,7 @@ module.exports = {
 		"no-eval": "error",
 		"no-extra-bind": "error",
 		"no-fallthrough": "error",
-		"no-invalid-this": "error",
+		"no-invalid-this": "off",
 		"no-magic-numbers": "off",
 		"no-new-func": "error",
 		"no-new-wrappers": "error",
