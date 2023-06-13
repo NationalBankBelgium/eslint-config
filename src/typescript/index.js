@@ -109,6 +109,12 @@ module.exports = {
 		"@typescript-eslint/no-unnecessary-type-arguments": "error",
 		"@typescript-eslint/no-unnecessary-type-assertion": "error",
 		"@typescript-eslint/no-unused-expressions": "error",
+		"@typescript-eslint/no-unused-vars": [
+			"error",
+			{
+				argsIgnorePattern: "^_"
+			}
+		],
 		"@typescript-eslint/no-var-requires": "off",
 		"@typescript-eslint/prefer-for-of": "error",
 		"@typescript-eslint/prefer-as-const": "off",
