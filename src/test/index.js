@@ -4,6 +4,7 @@ module.exports = {
 		"@angular-eslint/component-selector": "off",
 		"@angular-eslint/directive-selector": "off",
 		"@typescript-eslint/explicit-function-return-type": "off",
+		"@typescript-eslint/unbound-method": "off",
 		"jsdoc/check-indentation": "off",
 		"jsdoc/newline-after-description": "off",
 		"no-useless-constructor": "error",
