@@ -1,3 +1,12 @@
+# [12.0.0-rc.3](https://github.com/NationalBankBelgium/eslint-config/compare/12.0.0-rc.2...12.0.0-rc.3) (2023-07-13)
+
+
+### Bug Fixes
+
+* **config:** disactivate rule `@typescript-eslint/unbound-method` ([7c961f9](https://github.com/NationalBankBelgium/eslint-config/commit/7c961f9d74086da7096c3b4a6eeab81a7e8f1de5)), closes [#73](https://github.com/NationalBankBelgium/eslint-config/issues/73)
+
+
+
 # [12.0.0-rc.2](https://github.com/NationalBankBelgium/eslint-config/compare/12.0.0-rc.0...12.0.0-rc.2) (2023-06-13)
 
 
