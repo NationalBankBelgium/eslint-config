@@ -35,7 +35,7 @@
     "@typescript-eslint/parser": "4.28.2",
     "eslint": "^7.26.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsdoc": "^39.6.4",
+    "eslint-plugin-jsdoc": "^46.4.4",
     "eslint-plugin-no-null": "^1.0.2",
     "eslint-plugin-unicorn": "^36.0.0"
   },
