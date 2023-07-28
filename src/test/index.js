@@ -10,6 +10,8 @@ module.exports = {
 		"no-useless-constructor": "error",
 		"@typescript-eslint/no-useless-constructor": "off",
 		"@typescript-eslint/no-non-null-assertion": "off",
-		"prefer-const": "off"
+		"prefer-const": "off",
+		"jsdoc/require-jsdoc": "off",
+		"jsdoc/require-param": "off"
 	}
 };

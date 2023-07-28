@@ -15,7 +15,8 @@ module.exports = {
 		"eslint:recommended",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:@angular-eslint/recommended",
-		"plugin:@angular-eslint/template/process-inline-templates"
+		"plugin:@angular-eslint/template/process-inline-templates",
+		"plugin:jsdoc/recommended-typescript-error"
 	],
 	rules: {
 		"@typescript-eslint/adjacent-overload-signatures": "error",
@@ -175,8 +176,10 @@ module.exports = {
 		indent: "off",
 		"jsdoc/check-alignment": "error",
 		"jsdoc/check-indentation": "off",
-		"jsdoc/newline-after-description": "off",
+		"jsdoc/empty-tags": "off",
 		"jsdoc/no-types": "error",
+		"jsdoc/require-returns": "off",
+		"jsdoc/tag-lines": "off",
 		"max-classes-per-file": "off",
 		"newline-per-chained-call": "off",
 		"no-bitwise": "error",
