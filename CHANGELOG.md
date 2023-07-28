@@ -1,3 +1,12 @@
+# [12.0.0-rc.4](https://github.com/NationalBankBelgium/eslint-config/compare/12.0.0-rc.3...12.0.0-rc.4) (2023-07-28)
+
+
+### Features
+
+* **all:** upgrade "eslint-plugin-jsdoc" dependency to version `43.0.3` ([35a21f6](https://github.com/NationalBankBelgium/eslint-config/commit/35a21f68d64b5f94d06c15ad35d86e14fcaed136))
+
+
+
 # [12.0.0-rc.3](https://github.com/NationalBankBelgium/eslint-config/compare/12.0.0-rc.2...12.0.0-rc.3) (2023-07-13)
 
 
