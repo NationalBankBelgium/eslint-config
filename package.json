@@ -26,7 +26,7 @@
     "eslint-config"
   ],
   "dependencies": {
-    "@angular-eslint/builder": "12.7.0",
+    "@angular-eslint/builder": "16.1.1",
     "@angular-eslint/eslint-plugin": "12.7.0",
     "@angular-eslint/eslint-plugin-template": "12.7.0",
     "@angular-eslint/schematics": "12.7.0",
