@@ -26,18 +26,18 @@
     "eslint-config"
   ],
   "dependencies": {
-    "@angular-eslint/builder": "12.7.0",
-    "@angular-eslint/eslint-plugin": "12.7.0",
-    "@angular-eslint/eslint-plugin-template": "12.7.0",
-    "@angular-eslint/schematics": "12.7.0",
-    "@angular-eslint/template-parser": "12.7.0",
-    "@typescript-eslint/eslint-plugin": "4.28.2",
-    "@typescript-eslint/parser": "4.28.2",
-    "eslint": "^7.26.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsdoc": "43.0.3",
+    "@angular-eslint/builder": "^13.3.0",
+    "@angular-eslint/eslint-plugin": "^13.3.0",
+    "@angular-eslint/eslint-plugin-template": "^13.3.0",
+    "@angular-eslint/schematics": "^13.3.0",
+    "@angular-eslint/template-parser": "^13.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.17.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsdoc": "^46.8.1",
     "eslint-plugin-no-null": "^1.0.2",
-    "eslint-plugin-unicorn": "^36.0.0"
+    "eslint-plugin-unicorn": "^42.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
