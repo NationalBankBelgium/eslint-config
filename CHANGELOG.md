@@ -1,3 +1,7 @@
+# [13.0.0-rc.0](https://github.com/NationalBankBelgium/eslint-config/compare/12.0.0...13.0.0-rc.0) (2023-11-14)
+
+
+
 # [12.0.0](https://github.com/NationalBankBelgium/eslint-config/compare/12.0.0-rc.4...12.0.0) (2023-11-09)
 
 
