@@ -42,7 +42,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
-    "@nationalbankbelgium/code-style": "^1.7.0",
+    "@nationalbankbelgium/code-style": "^1.8.0",
     "@release-it/conventional-changelog": "^5.1.1",
     "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^2.0.31",
