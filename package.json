@@ -28,7 +28,7 @@
   "dependencies": {
     "@angular-eslint/builder": "^14.4.0",
     "@angular-eslint/eslint-plugin": "^14.4.0",
-    "@angular-eslint/eslint-plugin-template": "^14.4.0",
+    "@angular-eslint/eslint-plugin-template": "^17.2.0",
     "@angular-eslint/schematics": "^14.4.0",
     "@angular-eslint/template-parser": "^14.4.0",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
