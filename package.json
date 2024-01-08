@@ -43,7 +43,7 @@
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
     "@nationalbankbelgium/code-style": "^1.8.0",
-    "@release-it/conventional-changelog": "^5.1.1",
+    "@release-it/conventional-changelog": "^8.0.1",
     "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^2.0.31",
     "cz-customizable": "^7.0.0",
@@ -51,7 +51,7 @@
     "lint-staged": "^13.2.2",
     "pinst": "~3.0.0",
     "prettier": "~3.1.1",
-    "release-it": "^15.10.3"
+    "release-it": "^17.0.1"
   },
   "scripts": {
     "build": "bash ./build.sh",
