@@ -26,18 +26,18 @@
     "eslint-config"
   ],
   "dependencies": {
-    "@angular-eslint/builder": "^14.4.0",
-    "@angular-eslint/eslint-plugin": "^14.4.0",
-    "@angular-eslint/eslint-plugin-template": "^14.4.0",
-    "@angular-eslint/schematics": "^14.4.0",
-    "@angular-eslint/template-parser": "^14.4.0",
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
-    "@typescript-eslint/parser": "^5.43.0",
+    "@angular-eslint/builder": "^15.2.1",
+    "@angular-eslint/eslint-plugin": "^15.2.1",
+    "@angular-eslint/eslint-plugin-template": "^15.2.1",
+    "@angular-eslint/schematics": "^15.2.1",
+    "@angular-eslint/template-parser": "^15.2.1",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
     "eslint": "^8.56.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsdoc": "^46.8.1",
+    "eslint-plugin-jsdoc": "^48.2.3",
     "eslint-plugin-no-null": "^1.0.2",
-    "eslint-plugin-unicorn": "^42.0.0"
+    "eslint-plugin-unicorn": "^52.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
@@ -47,7 +47,7 @@
     "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^2.0.31",
     "cz-customizable": "^7.0.0",
-    "husky": "^8.0.0",
+    "husky": "^9.0.10",
     "lint-staged": "^13.2.2",
     "pinst": "~3.0.0",
     "prettier": "~3.1.1",
