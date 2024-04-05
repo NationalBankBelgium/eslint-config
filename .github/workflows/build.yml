@@ -18,17 +18,17 @@ jobs:
     env:
       LOGS_DIR: /tmp/eslint-config/logs
       LOGS_FILE: /tmp/eslint-config/logs/build-perf.log
-      NPM_VERSION: "8.x"
+      NPM_VERSION: "10.x"
       TZ: "Europe/Brussels"
     steps:
       # See: https://github.com/marketplace/actions/checkout
       - uses: actions/checkout@v3
 
       # See: https://github.com/marketplace/actions/setup-node-js-environment
-      - name: Use Node.js 14
+      - name: Use Node.js 20
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 20
 
       - name: Create file & folder for GitHub Actions logs
         run: |
