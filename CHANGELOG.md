@@ -1,3 +1,13 @@
+# [15.0.0](https://github.com/NationalBankBelgium/eslint-config/compare/14.0.0-rc.0...15.0.0) (2024-04-08)
+
+
+### Features
+
+* **build:** update workflow to use node20 ([9618d73](https://github.com/NationalBankBelgium/eslint-config/commit/9618d73ece8f64957b631dd7ef7c30a9ff46862d))
+* **config:** update configuration to `angular@15` ([9f51c44](https://github.com/NationalBankBelgium/eslint-config/commit/9f51c442d0367087d988d0157547b89a0c772162))
+
+
+
 # [14.0.0-rc.0](https://github.com/NationalBankBelgium/eslint-config/compare/13.0.0...14.0.0-rc.0) (2024-01-08)
 
 
