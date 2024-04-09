@@ -1,3 +1,12 @@
+## [15.0.1](https://github.com/NationalBankBelgium/eslint-config/compare/15.0.0...15.0.1) (2024-04-09)
+
+
+### Bug Fixes
+
+* **config:** remove `env` options ([e465ad2](https://github.com/NationalBankBelgium/eslint-config/commit/e465ad20f2de2243d51f1999e45aff63660cd286))
+
+
+
 # [15.0.0](https://github.com/NationalBankBelgium/eslint-config/compare/14.0.0-rc.0...15.0.0) (2024-04-08)
 
 
