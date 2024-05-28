@@ -1,3 +1,12 @@
+# [16.0.0](https://github.com/NationalBankBelgium/eslint-config/compare/15.0.1...16.0.0) (2024-05-28)
+
+
+### Features
+
+* **all:** update dependencies for support of `angular 16` ([d1506e1](https://github.com/NationalBankBelgium/eslint-config/commit/d1506e19395d53affdf92c250980150a2aa54250))
+
+
+
 ## [15.0.1](https://github.com/NationalBankBelgium/eslint-config/compare/15.0.0...15.0.1) (2024-04-09)
 
 
