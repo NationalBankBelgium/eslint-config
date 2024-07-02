@@ -30,7 +30,7 @@
     "@angular-eslint/eslint-plugin": "^16.3.1",
     "@angular-eslint/eslint-plugin-template": "^16.3.1",
     "@angular-eslint/schematics": "^16.3.1",
-    "@angular-eslint/template-parser": "^16.3.1",
+    "@angular-eslint/template-parser": "^18.1.0",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
     "@typescript-eslint/parser": "^7.4.0",
     "eslint": "^8.56.0",
